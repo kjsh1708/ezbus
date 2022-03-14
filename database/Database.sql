@@ -6,7 +6,7 @@ use ezBusDB;
 drop table if exists bus; 
 create table bus(
     bus_id int not null auto_increment,
-    bus_plate_number int,
+    bus_plate_number varchar(255),
     model varchar(255), 
     bus_type varchar(255), 
     capacity int, 
