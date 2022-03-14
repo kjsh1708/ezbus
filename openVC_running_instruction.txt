@@ -1,0 +1,9 @@
+conda create --name huawei python=3.8.1
+
+conda activate huawei
+
+pip install -r requirements.txt
+
+python track.py --source 'https://youtu.be/Zgi9g1ksQHc'
+
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cpuonly -c pytorch
