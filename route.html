@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZBus - Easier Bus Stops</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="bg-gray-800">
+    <div class="flex flex-wrap justify-center">
+        <div class="w-6/12 sm:w-4/12 px-4 pt-4">
+          <img src="image/bus.jpeg" class="w-10 h-10 shadow rounded align-middle border-none mx-auto" />
+        </div>
+      </div>
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+      
+          <div>
+            <div class="flex space-x-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="homepage.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Favourites</a>
+  
+              <a href="near.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Nearest Bus Stops</a>
+  
+              <a href="route.html" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Routing</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <form class="w-full max-w-sm">
+    <div class="flex items-center border-b border-teal-500 py-2 pl-2">
+        From
+      <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Ang Mo Kio Int, Yio Chu Kang int..." aria-label="Full name">
+    </div>
+  </form>
+
+  <form class="w-full max-w-sm">
+    <div class="flex items-center border-b border-teal-500 py-2 pl-2">
+        To
+      <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Ang Mo Kio Int, Yio Chu Kang int..." aria-label="Full name">
+    </div>
+  </form>
+  
+</body>
+</html>
